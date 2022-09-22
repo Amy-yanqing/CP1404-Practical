@@ -1,20 +1,21 @@
 def main():
     minimum_length = 4
-    password_character = get_password(minimum_length)
-    print_stars_line(password_character)
+    password = get_password(minimum_length)
+    print_stars_line(password)
 
 
-def print_stars_line(password_character):
-    print(len(password_character) * "*")
+def print_stars_line(password):
+    print(len(password) * "*")
 
 
 def get_password(minimum_length):
-    password_character = input("Enter new password? ")
-    while len(password_character) <= minimum_length:
+    password = input("Enter new password? ")
+
+    while len(password) <= minimum_length:
         print("Invalid")
-        password_character = input("Enter new password? ")
-    print(password_character)
-    return password_character
+        password = input("Enter new password? ")
+    print(password)
+    return password
 
 
 main()
