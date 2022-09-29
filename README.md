@@ -1,4 +1,4 @@
-# CP1404-Practical  resource week1 to week10
+# CP1404-Practical resources week1 to week10
 https://github.com/CP1404/Practicals/tree/master/prac_01
 https://github.com/CP1404/Practicals/tree/master/prac_02
 https://github.com/CP1404/Practicals/tree/master/prac_03
