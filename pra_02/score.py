@@ -6,6 +6,7 @@ import random
 
 
 def main():
+    """Get score and display score result"""
     score = get_valid_score()
     print_result(score)
     random_score = random.randint(1, 100)
@@ -14,6 +15,7 @@ def main():
 
 
 def print_result(score):
+    """Display the result of score"""
     if score >= 90:
         print("Excellent")
     elif score >= 50:
@@ -23,6 +25,7 @@ def print_result(score):
 
 
 def get_valid_score():
+    """Get valid score"""
     score = float(input("Enter score: "))
     while score < 0 or score > 100:
         print("Invalid score")
