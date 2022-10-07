@@ -1,3 +1,4 @@
+"""subject reader programming"""
 
 FILENAME = "subject_data.txt"
 
