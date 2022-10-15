@@ -21,4 +21,4 @@ except:
     print("Empty choice")
 
 for state in CODE_TO_NAME:
-    print(f"{state}:{CODE_TO_NAME[state]}")
+    print(f"{state:<3} is {CODE_TO_NAME[state]}")
