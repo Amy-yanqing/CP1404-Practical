@@ -1,4 +1,7 @@
 """
+get a string and count the occurrences of words in this string
+"""
+"""
 Word Occurrences
 Estimate: 30 minutes
 Actual:   60  minutes
