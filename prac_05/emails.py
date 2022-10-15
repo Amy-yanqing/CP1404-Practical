@@ -3,9 +3,13 @@ emails
 Estimate: 60 minutes
 Actual: 120 minutes
 """
+"""
+Email to name dictionary
+"""
 
 
 def main():
+    """Create dictionary of emails-to-names and display it"""
     name_to_email = {}
     email = input("Email: ")
     while email != "":
@@ -22,6 +26,7 @@ def main():
 
 
 def get_name(email):
+    """Extract expected name from email address."""
     given_name = email.split("@")[0].title()
     parts = given_name.split(".")
     name = " ".join(parts)
