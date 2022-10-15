@@ -15,10 +15,8 @@ while state_code != "":
     except KeyError:
         print("Invalid short state KeyError")
     state_code = input("Enter short state: ").upper()
-try:
-    print(f"{state_code}:{CODE_TO_NAME[state_code]}")
-except:
-    print("Empty choice")
+
+print("Empty input")
 
 for state in CODE_TO_NAME:
     print(f"{state:<3} is {CODE_TO_NAME[state]}")
