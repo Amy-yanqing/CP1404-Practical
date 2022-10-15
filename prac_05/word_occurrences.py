@@ -1,0 +1,19 @@
+"""
+Word Occurrences
+Estimate: 30 minutes
+Actual:   60  minutes
+"""
+TEXT = "this is a collection of words of nice words this is a fun thing it is"
+# Text = input("enter your text： ")
+words = TEXT.split()
+word_to_count = {}
+for word in words:  # version 1
+    try:
+        word_to_count[word] += 1
+    except KeyError:
+        word_to_count[word] = 1
+# for word in words:  # version 2
+#     word_to_count[word] = word_to_count.get(word, 0) + 1
+word_length = max(len(word) for word in list(word_to_count.keys()))
+for word, count in sorted(word_to_count.items()):
+    print(f"{word:{word_length}} :{count}")
