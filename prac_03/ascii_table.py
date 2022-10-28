@@ -1,4 +1,3 @@
-
 """Get ASCII code then display the ASCII code's corresponding  characters"""
 LOW_NUMBER = 33
 UPPER_NUMBER = 127
@@ -11,3 +10,5 @@ print(f"{number:<4}{chr(number)}")
 
 for i in range(LOW_NUMBER, UPPER_NUMBER + 1):
     print(f"{i:3} {chr(i):>3}")
+
+# nothing change just testing my git
