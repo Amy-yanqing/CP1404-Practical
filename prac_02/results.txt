@@ -1,0 +1,4 @@
+54 is Passable
+80 is Passable
+65 is Passable
+10 is Bad
