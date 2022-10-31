@@ -1,7 +1,7 @@
 """
 Estimate: 30 minutes
 Actual: 30 minutes
-Programming Language client code with test language class function
+Programming Language client code with test language function.
 """
 
 from prac_06.programming_language import ProgrammingLanguage

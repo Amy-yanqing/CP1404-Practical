@@ -1,4 +1,8 @@
-
+"""
+Estimate: 30 minutes
+Actual: 60 minutes
+Programming guitar class
+"""
 class Guitar:
     """Represent a Car object.."""
     def __init__(self, name="", year=0, cost=0):
