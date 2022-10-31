@@ -9,4 +9,4 @@ class ProgrammingLanguage:
         return self.typing == "Dynamic"
 
     def __str__(self):
-        return f"{self.field},{self.typing},{self.reflection},{self.year}"
+        return f"{self.field},{self.typing} Typing,Reflection={self.reflection},First appeared in {self.year}"
