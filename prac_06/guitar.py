@@ -3,10 +3,12 @@ Estimate: 30 minutes
 Actual: 60 minutes
 Programming guitar class
 """
+current_year = 2022
+VINTAGE_AGE = 50
 
 
 class Guitar:
-    """Represent a Car object.."""
+    """Guitar class for storing details of a guitar."""
 
     def __init__(self, name="", year=0, cost=0):
         self.name = name
@@ -19,14 +21,8 @@ class Guitar:
 
     def get_age(self):
         """get age method"""
-        current_year = 2022
         return current_year - self.year
 
     def is_vintage(self):
-        """determine it is old guitar"""
-        return self.get_age() >= 50
-
-
-if __name__ == '__main__':
-    my_guitar = Guitar("Gibson L-5 CES", 1922, 16035.40)
-    print(my_guitar)
+        """Determine whether a Guitar is considered vintage """
+        return self.get_age() >= VINTAGE_AGE
