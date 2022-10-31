@@ -1,7 +1,7 @@
-"""start:11:15"""
-
 """
-Programming Language client code.
+Estimate: 30 minutes
+Actual: 30 minutes
+Programming Language client code with test language class function
 """
 
 from prac_06.programming_language import ProgrammingLanguage

@@ -1,7 +1,7 @@
 """
 Estimate: 30 minutes
 Actual: 60 minutes
-Programming Language class with tests.
+Programming Language class
 """
 
 
