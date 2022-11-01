@@ -1,4 +1,6 @@
 """
+Estimate: 10 minutes
+Actual: 10 minutes
 a program tests for Guitar class
 """
 
