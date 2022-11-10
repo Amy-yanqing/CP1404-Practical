@@ -10,4 +10,4 @@ For me the 'clean code' is:
 - no repeat yourself  
 
 [Programming Patterns](https://github.com/CP1404/Starter/wiki/Programming-Patterns)  
-[CP1404 Practicals](https://github.com/CP1404/Practicals)  
+[CP1404 Practicals Instructions](https://github.com/CP1404/Practicals)
