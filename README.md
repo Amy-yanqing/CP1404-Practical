@@ -1,11 +1,13 @@
-# CP1404-Practical resources week1 to week10
-https://github.com/CP1404/Practicals/tree/master/prac_01
-https://github.com/CP1404/Practicals/tree/master/prac_02
-https://github.com/CP1404/Practicals/tree/master/prac_03
-https://github.com/CP1404/Practicals/tree/master/prac_04
-https://github.com/CP1404/Practicals/tree/master/prac_05
-https://github.com/CP1404/Practicals/tree/master/prac_06
-https://github.com/CP1404/Practicals/tree/master/prac_07
-https://github.com/CP1404/Practicals/tree/master/prac_08
-https://github.com/CP1404/Practicals/tree/master/prac_09
-https://github.com/CP1404/Practicals/tree/master/prac_10
+## My First README
+This is my first README file.  
+My name is Amy.
+I'm in the first year of IT study.  
+I like coding.  
+
+For me the 'clean code' is:
+- correct indentation
+- no formatting mistakes
+- no repeat yourself  
+
+[Programming Patterns](https://github.com/CP1404/Starter/wiki/Programming-Patterns)  
+[CP1404 Practicals](https://github.com/CP1404/Practicals)  
