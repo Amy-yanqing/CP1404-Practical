@@ -12,6 +12,7 @@ file_name = 'guitars.csv'
 def main():
     """A program about modify guitar data"""
     guitars = []
+    guitars.sort()
     choice = input("L(oad),D(display),A(dd),S(ave),Q(uit)?  ").upper()
     while choice != "Q":
         if choice == "L":
@@ -33,7 +34,7 @@ def save_guitar(guitars):
     """Save guitar data to file"""
     with open(file_name, 'w') as out_file:
         for guitar in guitars:
-            print(guitar.name, ",", guitar.year, ",", guitar.cost, file=out_file)
+            print(guitar.name, ",", guitar.year, ",", guitar.cost, file=out_file, sep="")
 
 
 def add_guitar(guitars):
