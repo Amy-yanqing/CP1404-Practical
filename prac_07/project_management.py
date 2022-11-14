@@ -10,8 +10,8 @@ def main():
     while choice != "":
         if choice == "L":
             load_file()
-        elif choice == "S":
-            save_file(projects)
+        # elif choice == "S":
+        #     # save_file(projects)
         elif choice == "D":
             display_projects(projects)
         elif choice == "F":
@@ -33,13 +33,13 @@ def load_file():
         for line in in_file:
             parts = line.strip().split("\t")
             projects.append(Project(parts[0], parts[1], parts[2], parts[3], parts[4]))
-        return projects
-
-
-def save_file(projects):
-    out_file_name = input("Enter your out file name: ")
     for project in projects:
-        print(project, file=out_file_name)
+        print(project)
+
+# def save_file(projects):
+#     out_file_name = input("Enter your out file name: ")
+#     for project in projects:
+#         print(project, file=out_file_name)
 
 
 def display_projects(projects):
