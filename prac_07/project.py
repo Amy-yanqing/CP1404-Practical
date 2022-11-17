@@ -16,5 +16,3 @@ class Project:
     def __lt__(self, other):
         return self.priority < other.priority
 
-    def __gt__(self, other):
-        return self.start_date > other.date

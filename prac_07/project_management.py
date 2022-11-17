@@ -4,7 +4,7 @@ Finished: 3 days
 """
 from prac_07.project import Project
 from datetime import datetime
-
+from operator import itemgetter
 
 HEADER = "Name\tStart Date\tPriority\tCost Estimate\tCompletion Percentage"
 FILE_NAME = "projects.txt"
@@ -79,7 +79,6 @@ def display_projects(projects):
 
 def filter_projects(projects, date):
     """filter projects, user input date compare with projects' date """
-    projects.sort()
     for project in projects:
         if project.start_date >= date:
             print(project)
