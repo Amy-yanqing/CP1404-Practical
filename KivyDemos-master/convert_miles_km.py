@@ -28,7 +28,6 @@ class MilesConverterApp(App):
         print("handle increment")
         miles = self.convert_to_number(text) + change
         self.root.ids.input_miles.text = str(miles)
-        # Since the InputText.text has changed, its on_text event will fire and handle_calculate will be called
 
     def update_result(self, miles):
         print("update")
