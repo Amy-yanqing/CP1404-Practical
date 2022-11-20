@@ -12,5 +12,8 @@ def main():
     print(taxi)
     print(taxi.get_fare())
 
+    # my_taxi = SilverServiceTaxi("Hummer", 200, 4)
+    # my_taxi.drive(20)
+    # print(my_taxi.get_fare())
 
 main()
